@@ -5,7 +5,9 @@ def prime? (number)
     if (number < 0)
       return false
     elsif (number % i == 0)
-      return 
+      return false
+    else
+      return true
     end
   end
 end
