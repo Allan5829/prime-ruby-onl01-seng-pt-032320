@@ -16,9 +16,8 @@ def prime? (number)
       if (number % i == 0)
         return false
       else
-        return true
+        i += 1
       end
-    i += 1
     end    
   end
 
