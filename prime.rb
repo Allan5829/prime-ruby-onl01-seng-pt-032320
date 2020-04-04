@@ -18,7 +18,8 @@ def prime? (number)
       else
         i += 1
       end
-    end    
+    end 
+    return true
   end
 
 end
