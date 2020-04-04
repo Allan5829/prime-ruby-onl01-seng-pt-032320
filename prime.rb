@@ -1,7 +1,7 @@
 def prime? (number)
   if (number < 0)
     return false 
-  elsif (number == 0)
+  elsif (number == 0, number == 1)
     return false
   else
   end
