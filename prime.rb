@@ -1,6 +1,6 @@
 def prime? (number)
   if (number < 0)
-    return false  
+    puts false  
   end
   half_number = number / 2
   i = 1
