@@ -8,7 +8,7 @@ def prime? (number)
   elsif (number == 2)
     return true
   else
-    half_number = number / 2
+    half_number = (number / 2) + (number % 2)
     i = 1
     while (i < half_number)
       if (number % i == 0)
