@@ -12,7 +12,7 @@ def prime? (number)
   else
     half_number = (number / 2) + (number % 2)
     i = 2
-    while (i < half_number)
+    while (i <= half_number)
       if (number % i == 0)
         return false
       else
