@@ -4,7 +4,7 @@ def prime? (number)
   while (i < half_number)
     if (number < 0)
       return false
-    elsif ()
+    elsif (number % i)
     end
   end
 end
