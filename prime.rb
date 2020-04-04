@@ -5,6 +5,8 @@ def prime? (number)
     return false
   elsif (number == 1)
     return false
+  elsif (number == 2)
+    return true
   else
   end
   half_number = number / 2
